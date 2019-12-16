@@ -11,6 +11,24 @@
 td{
     border:1px, solid, #000;
 }
+button{
+    
+    background-color:#007bff;
+    border-color:#007bff;
+    border-radius:5px;
+    color:#fff;
+    padding:4px 5px;
+},
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    padding: .375rem .75rem;
+}
 </style>
 <body>
 
@@ -18,7 +36,7 @@ td{
 
 <input type="text" id="title"></br></br>
 <textarea name="" id="description"></textarea></br>
-<button onclick="addArticle()">Click</button>
+<button class="btn btn-primary" onclick="addArticle()">Click</button>
 
 <div id="articles"></div>
 
